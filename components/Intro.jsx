@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export const Intro = () => {
   return (
     <div className="intro-container">
@@ -7,7 +7,7 @@ export const Intro = () => {
         <p className="maintext">Let's start acquaintance</p>
 
         <p className="resume">
-          <a href='/'>Resume Download</a>
+          <Link href='/'>Resume Download</Link>
         </p>
       </div>
       <div className="right-content">

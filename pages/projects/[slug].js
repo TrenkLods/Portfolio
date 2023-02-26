@@ -7,7 +7,7 @@ const ProjectDetails = ({ project }) => {
   const [index, setIndex] = useState(0);
   return (
     <div className="slug-projects-container">
-    <div className="slug-home"> <a href="/">HOME</a></div>
+    <div className="slug-home"> <Link href="/">HOME</Link></div>
       <div className="slug-project-card">
         <div className="slug-image-container">
           <img
@@ -34,8 +34,8 @@ const ProjectDetails = ({ project }) => {
           </div>
         </div>
         <div className="slug-project-link">
-          <a>Github</a>
-          <a>Link to completed website </a>
+          <h3>Github</h3>
+          <h3>Link to completed website </h3>
         </div>
         <div className="slug-description-container">
           <p className="slug-project-name">Project Name: {project.name}</p>
