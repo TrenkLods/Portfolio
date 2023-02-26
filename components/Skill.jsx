@@ -7,7 +7,7 @@ const Skill = ({ data }) => {
 
       <div className="skills-container">
         {
-          /**/ data.map((data) => (
+           data.map((data) => (
             <div className="skills-templatest" key={data.url}>
               <h2>{data.name}</h2>
               <Link href="data.git_url">
