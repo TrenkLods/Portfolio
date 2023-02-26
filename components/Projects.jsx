@@ -7,20 +7,20 @@ export const Projects = ({
   return (
     <div className="projects-container">
       <div className="project-card">
-        <Link href={`/projects/${slug.current}`}>
-          <img
+        {/**<Link href={`/projects/${slug.current}`}>
+           <img
             src={urlFor(image && image[0])}
             width={250}
             height={250}
             className="project-image"
           />
-          {/**  <div className="project-collor1">
+           <div className="project-collor1">
             <p className="project-name">{name}</p>
             <p className="technology_stack">{technology_stack}</p>
             <p className="details">{details}</p>
             <p className="project-description">{description}</p>
-          </div>*/}
-        </Link>
+          </div>
+        </Link>*/}
       </div>
     </div>
   );

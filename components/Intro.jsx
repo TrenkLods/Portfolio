@@ -4,7 +4,7 @@ export const Intro = () => {
   return (
     <div className="intro-container">
       <div className="left-content">
-        <p className="maintext">Let's start acquaintance</p>
+        <p className="maintext">Lets start acquaintance</p>
 
         <p className="resume">
           <Link href='/'>Resume Download</Link>
