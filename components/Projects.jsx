@@ -14,13 +14,13 @@ export const Projects = ({
             height={250}
             className="project-image"
           />
-          <div className="project-collor1">
+          {/**  <div className="project-collor1">
             <p className="project-name">{name}</p>
             <p className="technology_stack">{technology_stack}</p>
             <p className="details">{details}</p>
             <p className="project-description">{description}</p>
-          </div>
-        </Link>{" "}
+          </div>*/}
+        </Link>
       </div>
     </div>
   );
