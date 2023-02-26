@@ -7,7 +7,7 @@ const Information = () => {
         <h3>Profile</h3>
         <div className="profile-description">
         <p>
-          Having received basic knowledge, he returned to self-study. I studied
+          Having received basic knowledge, i returned to self-study. I studied
           the relevant literature on Front-end development, and also watched
           various video conferences. I am an aspiring React front-end developer
           with extensive resources in MaterialUl, SCSS, Redux Toolkit, Next.js,
